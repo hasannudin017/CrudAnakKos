@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "587789771668",
+    "project_id": "fir-anakkos",
+    "storage_bucket": "fir-anakkos.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:587789771668:android:68c8edc3038ea6110ca581",
+        "android_client_info": {
+          "package_name": "com.example.crudanakkos"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMEBrKi_YeQ6nWCGWp9N5CLIRkwLtrm9s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
