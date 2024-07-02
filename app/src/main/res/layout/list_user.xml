@@ -8,7 +8,7 @@
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp"
+        android:layout_margin="16dp"
         app:cardCornerRadius="15dp"
         app:cardElevation="10dp">
 
@@ -16,52 +16,64 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:layout_margin="10dp">
+            android:padding="16dp">
 
             <TextView
                 android:id="@+id/tvUsername"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:text="Username"
                 android:textSize="16sp"
-                android:text="Username"/>
+                android:padding="12dp"
+                android:layout_marginBottom="12dp"
+                android:background="#FFFFFF" />
 
             <TextView
                 android:id="@+id/tvNoHp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:text="No Hp"
                 android:textSize="16sp"
-                android:text="No Hp"/>
+                android:padding="12dp"
+                android:layout_marginBottom="12dp"
+                android:background="#FFFFFF" />
 
             <TextView
                 android:id="@+id/tvPassword"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:text="Password"
                 android:textSize="16sp"
-                android:text="Password"/>
+                android:padding="12dp"
+                android:layout_marginBottom="12dp"
+                android:background="#FFFFFF" />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:layout_margin="10dp">
-
-                <Button
-                    android:id="@+id/btnHapus"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="Hapus"
-                    android:textStyle="bold"
-                    android:backgroundTint="#FF0000"/>
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp">
 
                 <Button
                     android:id="@+id/btnEdit"
-                    android:layout_width="match_parent"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="Edit"
                     android:textStyle="bold"
-                    android:backgroundTint="#4CAF50"/>
+                    android:backgroundTint="#6750A4"
+                    android:layout_marginEnd="5dp"/>
+
+                <Button
+                    android:id="@+id/btnHapus"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Hapus"
+                    android:textStyle="bold"
+                    android:backgroundTint="#F44336"
+                    android:layout_marginStart="5dp"/>
 
             </LinearLayout>
 

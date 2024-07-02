@@ -8,7 +8,7 @@
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp"
+        android:layout_margin="16dp"
         app:cardCornerRadius="15dp"
         app:cardElevation="10dp">
 
@@ -16,43 +16,47 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:layout_margin="10dp">
+            android:padding="16dp">
 
             <TextView
                 android:id="@+id/tvTotalPembayaran"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:text="Total Pembayaran"
                 android:textSize="16sp"
-                android:gravity="center"
-                android:textStyle="bold"
-                android:text="Total Pembayaran"/>
+                android:padding="12dp"
+                android:layout_marginBottom="12dp"
+                android:background="#FFFFFF" />
 
             <TextView
                 android:id="@+id/tvDesc"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:text="Keterangan"
                 android:textSize="16sp"
-                android:gravity="center"
-                android:textStyle="bold"
-                android:text="Keterangan"/>
+                android:padding="12dp"
+                android:layout_marginBottom="12dp"
+                android:background="#FFFFFF" />
 
             <TextView
                 android:id="@+id/tvStatus"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:text="Status"
                 android:textSize="16sp"
-                android:gravity="center"
-                android:textStyle="bold"
-                android:textColor="#F44336"
-                android:text="Status"/>
+                android:padding="12dp"
+                android:layout_marginBottom="12dp"
+                android:background="#FFFFFF" />
 
             <TextView
                 android:id="@+id/tvTanggal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:text="Tanggal"
                 android:textSize="16sp"
-                android:gravity="center"
-                android:text="Tanggal"/>
+                android:padding="12dp"
+                android:layout_marginBottom="24dp"
+                android:background="#FFFFFF" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -65,7 +69,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:backgroundTint="#4CAF50"
+                    android:backgroundTint="#6750A4"
+                    android:background="@drawable/button_background"
                     android:text="Detail"
                     android:textStyle="bold" />
 

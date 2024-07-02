@@ -32,8 +32,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/tvadmin"
-        android:layout_margin="10dp"
-        android:text="Buat Tagihan"/>
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginBottom="10dp"
+        android:text="Buat Tagihan" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvUser"

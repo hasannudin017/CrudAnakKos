@@ -124,6 +124,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
+                android:background="@drawable/button_background"
+
                 android:text="Bayar" />
 
             <Button
@@ -131,6 +133,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
+                android:background="@drawable/button_background"
+
                 android:text="Kembali" />
 
         </LinearLayout>
